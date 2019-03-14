@@ -1,3 +1,4 @@
+#!/bin/ruby
 # Nairuby Code Challenge - Reverse Array
 #
 # Given an array:
@@ -60,5 +61,5 @@ end
 # other function call. Array are passed by value but the value is a reference to the location
 # of the passed array.
 printf("%s\n", arr)
-printf("%s\n", reverseArray(arr))
-printf("%s\n", reverseWords(arr))
+printf("%s\n", reverseArray(arr.clone))
+printf("%s\n", reverseWords(arr.clone))
