@@ -57,9 +57,6 @@ def reverseWords(arr)
   output
 end
 
-# Please note, to test either of the solution, you need to comment the below call of the
-# other function call. Array are passed by value but the value is a reference to the location
-# of the passed array.
 printf("%s\n", arr)
 printf("%s\n", reverseArray(arr.clone))
 printf("%s\n", reverseWords(arr.clone))
